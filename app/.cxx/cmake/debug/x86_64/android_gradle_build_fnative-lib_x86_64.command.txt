@@ -1,0 +1,7 @@
+Executable : /home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/x86_64
+fnative-lib
+jvmArgs : 
+

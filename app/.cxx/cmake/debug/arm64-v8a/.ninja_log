@@ -1,0 +1,19 @@
+# ninja log v5
+1	1071	1605603312	CMakeFiles/fnative-lib.dir/native-lib.cpp.o	c0bbbdf8c6924424
+1071	1093	1605603312	/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a/libfnative-lib.so	bd16748cf67739c8
+1	1072	1605603312	CMakeFiles/tool-lib.dir/tool_lib.cpp.o	9afdbf49c102f676
+210	241	1605603311	/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a/libdemo-lib.so	de117c8ac71b5f07
+0	210	1605603311	CMakeFiles/demo-lib.dir/demo1.cpp.o	49b6dfc3142f062b
+1072	1096	1605603312	/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a/libtool-lib.so	6208c978e807ff82
+1	966	1605603429	CMakeFiles/tool-lib.dir/tool_lib.cpp.o	9afdbf49c102f676
+967	1000	1605603429	/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a/libtool-lib.so	6208c978e807ff82
+2	1063	1605603429	CMakeFiles/fnative-lib.dir/native-lib.cpp.o	c0bbbdf8c6924424
+1063	1088	1605603429	/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a/libfnative-lib.so	bd16748cf67739c8
+1	805	1605603846	CMakeFiles/tool-lib.dir/tool_lib.cpp.o	9afdbf49c102f676
+805	827	1605603846	/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a/libtool-lib.so	6208c978e807ff82
+2	979	1605603846	CMakeFiles/fnative-lib.dir/native-lib.cpp.o	c0bbbdf8c6924424
+979	1001	1605603846	/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a/libfnative-lib.so	bd16748cf67739c8
+1	675	1605604373	CMakeFiles/fnative-lib.dir/native-lib.cpp.o	c0bbbdf8c6924424
+675	704	1605604373	/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a/libfnative-lib.so	bd16748cf67739c8
+1	611	1605604495	CMakeFiles/fnative-lib.dir/native-lib.cpp.o	c0bbbdf8c6924424
+611	633	1605604495	/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a/libfnative-lib.so	bd16748cf67739c8

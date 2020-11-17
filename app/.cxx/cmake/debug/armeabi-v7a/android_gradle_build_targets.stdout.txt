@@ -1,0 +1,75 @@
+ninja: Entering directory `/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/armeabi-v7a'
+[1/6] Building CXX object CMakeFiles/demo-lib.dir/demo1.cpp.o
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/demo1.cpp:54:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/demo1.cpp:94:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+[2/6] Linking CXX shared library /home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libdemo-lib.so
+[3/6] Building CXX object CMakeFiles/tool-lib.dir/tool_lib.cpp.o
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.cpp:76:36: warning: data argument not used by format string [-Wformat-extra-args]
+        ALOGE("unopen file======", "/dev/uinput");
+              ~~~~~~~~~~~~~~~~~~~  ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.h:22:67: note: expanded from macro 'ALOGE'
+#define ALOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                  ^~~~~~~~~~~
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.cpp:143:29: warning: data argument not used by format string [-Wformat-extra-args]
+    ALOGE("syncCommandBin", "======");
+          ~~~~~~~~~~~~~~~~  ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.h:22:67: note: expanded from macro 'ALOGE'
+#define ALOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                  ^~~~~~~~~~~
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.cpp:164:29: warning: data argument not used by format string [-Wformat-extra-args]
+    ALOGE("syncCommandBin", "===XXX===");
+          ~~~~~~~~~~~~~~~~  ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.h:22:67: note: expanded from macro 'ALOGE'
+#define ALOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                  ^~~~~~~~~~~
+3 warnings generated.
+[4/6] Linking CXX shared library /home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libtool-lib.so
+[5/6] Building CXX object CMakeFiles/fnative-lib.dir/native-lib.cpp.o
+In file included from /home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:19:
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.cpp:76:36: warning: data argument not used by format string [-Wformat-extra-args]
+        ALOGE("unopen file======", "/dev/uinput");
+              ~~~~~~~~~~~~~~~~~~~  ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.h:22:67: note: expanded from macro 'ALOGE'
+#define ALOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                  ^~~~~~~~~~~
+In file included from /home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:19:
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.cpp:143:29: warning: data argument not used by format string [-Wformat-extra-args]
+    ALOGE("syncCommandBin", "======");
+          ~~~~~~~~~~~~~~~~  ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.h:22:67: note: expanded from macro 'ALOGE'
+#define ALOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                  ^~~~~~~~~~~
+In file included from /home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:19:
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.cpp:164:29: warning: data argument not used by format string [-Wformat-extra-args]
+    ALOGE("syncCommandBin", "===XXX===");
+          ~~~~~~~~~~~~~~~~  ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.h:22:67: note: expanded from macro 'ALOGE'
+#define ALOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                  ^~~~~~~~~~~
+In file included from /home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:20:
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/demo1.cpp:54:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/demo1.cpp:94:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:32:9: warning: 'LOG_TAG' macro redefined [-Wmacro-redefined]
+#define LOG_TAG "BT"
+        ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.h:19:9: note: previous definition is here
+#define LOG_TAG "tool-lib"
+        ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:56:46: warning: format specifies type 'int' but the argument has type 'const char *' [-Wformat]
+    LOGE("开始=======================:%d", "begin");
+                                      ~~   ^~~~~~~
+                                      %s
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:36:66: note: expanded from macro 'LOGE'
+#define LOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                 ^~~~~~~~~~~
+7 warnings generated.
+[6/6] Linking CXX shared library /home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libfnative-lib.so

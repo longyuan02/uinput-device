@@ -1,0 +1,32 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 27 min SDK version: x86",
+    "file": "/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027/home/zjl/Android/Sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/x86/android_gradle_build.json\u0027 was up-to-date",
+    "file": "/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/CMakeLists.txt",
+    "tag": "debug|x86"
+  }
+]

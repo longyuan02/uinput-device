@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/home/zjl/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",
+    "/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/CMakeLists.txt",
+    "/home/zjl/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "tool-lib-Release-armeabi-v7a": {
+      "artifactName": "tool-lib",
+      "buildCommand": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/armeabi-v7a\" tool-lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/release/obj/armeabi-v7a/libtool-lib.so",
+      "runtimeFiles": []
+    },
+    "fnative-lib-Release-armeabi-v7a": {
+      "artifactName": "fnative-lib",
+      "buildCommand": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/armeabi-v7a\" fnative-lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/release/obj/armeabi-v7a/libfnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 27,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/arm64-v8a",
+    "cmakeServerLogFile": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cxx/debug/arm64-v8a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/arm64-v8a",
+      "cmakeToolchain": "/home/zjl/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
+      "variables": [
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "/home/zjl/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "/home/zjl/Android/Sdk/ndk/21.3.6528147"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-27"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "arm64-v8a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "/home/zjl/Android/Sdk/ndk/21.3.6528147"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "27"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/arm64-v8a",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/arm64-v8a",
+  "variant": {
+    "buildSystemArgumentList": [],
+    "buildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
+      },
+      "cmakeToolchainFile": "/home/zjl/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx",
+      "gradleModulePathName": ":app",
+      "intermediatesFolder": "/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates",
+      "makeFile": "/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/CMakeLists.txt",
+      "moduleBuildFile": "/home/zjl/AndroidStudioProjects/AndroidQ/app/build.gradle",
+      "moduleRootFolder": "/home/zjl/AndroidStudioProjects/AndroidQ/app",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "/home/zjl/Android/Sdk/ndk/21.3.6528147",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkVersion": "21.3.6528147",
+      "project": {
+        "compilerSettingsCacheFolder": "/home/zjl/AndroidStudioProjects/AndroidQ/.cxx",
+        "cxxFolder": "/home/zjl/AndroidStudioProjects/AndroidQ/.cxx",
+        "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "/home/zjl/AndroidStudioProjects/AndroidQ",
+        "sdkFolder": "/home/zjl/Android/Sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/home/zjl/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/zjl/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/zjl/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/zjl/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj",
+    "variantName": "debug",
+    "validAbiList": [
+      "ARM64_V8A"
+    ],
+    "prefabDirectory": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/prefab/arm64-v8a"
+}

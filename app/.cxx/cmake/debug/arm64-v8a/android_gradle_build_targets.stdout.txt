@@ -1,0 +1,38 @@
+ninja: Entering directory `/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/fnative-lib.dir/native-lib.cpp.o
+In file included from /home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:19:
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.cpp:76:36: warning: data argument not used by format string [-Wformat-extra-args]
+        ALOGE("unopen file======", "/dev/uinput");
+              ~~~~~~~~~~~~~~~~~~~  ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.h:22:67: note: expanded from macro 'ALOGE'
+#define ALOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                  ^~~~~~~~~~~
+In file included from /home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:19:
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.cpp:143:29: warning: data argument not used by format string [-Wformat-extra-args]
+    ALOGE("syncCommandBin", "======");
+          ~~~~~~~~~~~~~~~~  ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.h:22:67: note: expanded from macro 'ALOGE'
+#define ALOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                  ^~~~~~~~~~~
+In file included from /home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:19:
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.cpp:164:29: warning: data argument not used by format string [-Wformat-extra-args]
+    ALOGE("syncCommandBin", "===XXX===");
+          ~~~~~~~~~~~~~~~~  ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.h:22:67: note: expanded from macro 'ALOGE'
+#define ALOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                  ^~~~~~~~~~~
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:31:9: warning: 'LOG_TAG' macro redefined [-Wmacro-redefined]
+#define LOG_TAG "BT"
+        ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.h:19:9: note: previous definition is here
+#define LOG_TAG "tool-lib"
+        ^
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:55:46: warning: format specifies type 'int' but the argument has type 'const char *' [-Wformat]
+    LOGE("开始=======================:%d", "begin");
+                                      ~~   ^~~~~~~
+                                      %s
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:35:66: note: expanded from macro 'LOGE'
+#define LOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                 ^~~~~~~~~~~
+5 warnings generated.
+[2/2] Linking CXX shared library /home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a/libfnative-lib.so

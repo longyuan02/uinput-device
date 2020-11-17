@@ -1,0 +1,4 @@
+/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/tool-lib.dir
+/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/fnative-lib.dir

@@ -1,0 +1,11 @@
+ninja: Entering directory `/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/fnative-lib.dir/native-lib.cpp.o
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:187:46: warning: format specifies type 'int' but the argument has type 'const char *' [-Wformat]
+    LOGE("开始=======================:%d", "");
+                                      ~~   ^~
+                                      %s
+/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp:27:66: note: expanded from macro 'LOGE'
+#define LOGE(...)__android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__) // 定义LOGE类型
+                                                                 ^~~~~~~~~~~
+1 warning generated.
+[2/2] Linking CXX shared library /home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/arm64-v8a/libfnative-lib.so

@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/home/zjl/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",
+    "/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/CMakeLists.txt",
+    "/home/zjl/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "fnative-lib-Debug-x86": {
+      "artifactName": "fnative-lib",
+      "buildCommand": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/x86\" fnative-lib",
+      "abi": "x86",
+      "output": "/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/x86/libfnative-lib.so",
+      "runtimeFiles": []
+    },
+    "tool-lib-Debug-x86": {
+      "artifactName": "tool-lib",
+      "buildCommand": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/debug/x86\" tool-lib",
+      "abi": "x86",
+      "output": "/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/debug/obj/x86/libtool-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

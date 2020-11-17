@@ -1,0 +1,4 @@
+/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/x86_64/CMakeFiles/tool-lib.dir
+/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/x86_64/CMakeFiles/fnative-lib.dir

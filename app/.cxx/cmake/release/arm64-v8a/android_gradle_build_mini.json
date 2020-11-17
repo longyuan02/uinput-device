@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/home/zjl/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",
+    "/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/CMakeLists.txt",
+    "/home/zjl/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "fnative-lib-Release-arm64-v8a": {
+      "artifactName": "fnative-lib",
+      "buildCommand": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/arm64-v8a\" fnative-lib",
+      "abi": "arm64-v8a",
+      "output": "/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/release/obj/arm64-v8a/libfnative-lib.so",
+      "runtimeFiles": []
+    },
+    "tool-lib-Release-arm64-v8a": {
+      "artifactName": "tool-lib",
+      "buildCommand": "/home/zjl/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/arm64-v8a\" tool-lib",
+      "abi": "arm64-v8a",
+      "output": "/home/zjl/AndroidStudioProjects/AndroidQ/app/build/intermediates/cmake/release/obj/arm64-v8a/libtool-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

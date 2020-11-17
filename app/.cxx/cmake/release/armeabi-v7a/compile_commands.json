@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/zjl/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi27 --gcc-toolchain=/home/zjl/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/zjl/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtool_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/tool-lib.dir/tool_lib.cpp.o -c /home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.cpp",
+  "file": "/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/tool_lib.cpp"
+},
+
+{
+  "directory": "/home/zjl/AndroidStudioProjects/AndroidQ/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/zjl/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi27 --gcc-toolchain=/home/zjl/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/zjl/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dfnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/fnative-lib.dir/native-lib.cpp.o -c /home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/zjl/AndroidStudioProjects/AndroidQ/app/src/main/cpp/native-lib.cpp"
+}
+]
